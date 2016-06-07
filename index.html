@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Code Fellows Demo</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+	<nav id="main-nav">
+		<h1>UnicornTrackr</h1>
+	</nav>
+
+	<main id="main" role="main">
+		<h2>Unicorns</h2>
+		<div id="unicorns" class="unicorns"></div>
+	</main>
+
+	<footer id="main-footer">
+		<p>&copy;2016 Unicorn Industries LLC</p>
+	</footer>
+
+	<script id="tpl-unicorn" type="text/template">
+		<div class="unicorn" data-id="<%= id %>">
+			<h3 class="unicorn-name"><%= name %></h3>
+			<div class="unicorn-location">
+				<select class="uniform-location-select" name="unicorn-location-select">
+					<option <%= location === "barn" ? 'selected' : '' %> value="barn">Barn</option>
+					<option <%= location === "corral" ? 'selected' : '' %> value="corral">Corral</option>
+					<option <%= location === "pasture" ? 'selected' : '' %> value="pasture">Pasture</option>
+				</select>
+				
+			</div>
+
+			<ul class="unicorn-attributes">
+				<li class="unicorn-color"><%= color %></li>
+				<li class="unicorn-food"><%= food %></li>
+			</ul>
+		</div>
+	</script>
+
+
+	<script src="index.js" type="text/javascript"></script>
+
+</body>
+</html>

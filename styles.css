@@ -1,0 +1,71 @@
+body {
+	font-family: 'Helvetica', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav#main-nav {
+	position: fixed;
+	height: 50px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #eee;
+}
+
+nav#main-nav h1 { 
+	margin: 0 5px;
+	padding: 0;
+	height: 50px;
+	line-height: 50px;
+}
+
+main#main {
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+
+footer#main-footer {
+	position: fixed;
+	height: 35px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #000;
+	color: #fff;
+}
+
+footer#main-footer p {
+	margin: 0 5px;
+	line-height: 35px;
+}
+
+.unicorn {
+	background: #eee;
+	position: relative;
+}	
+
+.unicorn .unicorn-name {
+
+}
+
+.unicorn .unicorn-location {
+	position: absolute;
+	margin: 0.5em;
+	top: 0;
+	right: 0;
+	text-transform: uppercase;
+}
+
+.unicorns {}
+
+.unicorns .unicorn {
+	border-bottom: 1px solid #ccc;
+}
+.unicorns .unicorn:nth-child(odd) {
+	background: #fff;
+}
+
+
+
+
