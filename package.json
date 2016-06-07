@@ -1,7 +1,7 @@
 {
-  "name": "code-fellows-interview",
+  "name": "unicorn-ranch",
   "version": "0.0.1",
-  "description": "",
+  "description": "Sample project for interview with Code Fellows",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/andyinabox/code-fellows-interview.git"
+    "url": "git://github.com/andyinabox/unicorn-ranch.git"
   },
-  "homepage": "https://github.com/andyinabox/code-fellows-interview"
+  "homepage": "https://github.com/andyinabox/unicorn-ranch"
 }
