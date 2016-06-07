@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "budo index.js -H localhost --live --open --css styles.css",
-    "build": "budo-demo index.js -c styles.css -m",
+    "build": "budo-demo index.js -c styles.css -i index.html -i unicorns.json -m",
     "deploy": "npm run build; gh-pages -d dist; npm run clean",
     "clean": "rm -r dist"
   },
