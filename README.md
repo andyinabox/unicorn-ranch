@@ -8,8 +8,11 @@ Install dependencies
 
 Start dev server
 
-`npm run start`
+`npm start`
 
+Deploy to GitHub Pages
+
+`npm run deploy`
 
 ## Unicorn Ranch
 
